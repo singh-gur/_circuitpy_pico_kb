@@ -7,10 +7,10 @@ MEDIA = 1
 KEY = 2
 
 keymap = {
-    (0): (KEY, [Keycode.ZERO]),
-    (1): (KEY, [Keycode.ONE]),
-    (2): (KEY, [Keycode.TWO]),
-    (3): (KEY, [Keycode.THREE]),
+    (0): (KEY, [Keycode.ENTER]),
+    (1): (KEY, [Keycode.F14]),
+    (2): (KEY, [Keycode.F15]),
+    (3): (KEY, [Keycode.F16]),
 
     (4): (KEY, [Keycode.FOUR]),
     (5): (KEY, [Keycode.FIVE]),
