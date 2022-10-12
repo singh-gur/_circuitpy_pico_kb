@@ -19,6 +19,6 @@ keymap = {
 
     (8): (KEY, [Keycode.EIGHT]),
     (9): (KEY, [Keycode.NINE]),
-    (10): (KEY, [Keycode.A]),
-    (11): (KEY, [Keycode.B]),
+    (10): (KEY, [Keycode.CONTROL, Keycode.WINDOWS, Keycode.LEFT_ARROW]),
+    (11): (KEY, [Keycode.CONTROL, Keycode.WINDOWS, Keycode.RIGHT_ARROW]),
 }
