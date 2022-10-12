@@ -9,7 +9,7 @@ enable_switch = DigitalInOut(enable_pin)
 enable_switch.direction = Direction.INPUT
 enable_switch.pull = Pull.UP
 
-if enable_switch.value:
+if not enable_switch.value:
     enable_usb_drive()
     enable(console=True, data=False)
 else:
