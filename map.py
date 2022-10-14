@@ -8,14 +8,14 @@ KEY = 2
 
 keymap = {
     (0): (KEY, [Keycode.ENTER]),
-    (1): (KEY, [Keycode.F14]),
-    (2): (KEY, [Keycode.F15]),
-    (3): (KEY, [Keycode.F16]),
+    (1): (KEY, [Keycode.SHIFT, Keycode.F14]),
+    (2): (KEY, [Keycode.SHIFT, Keycode.F15]),
+    (3): (KEY, [Keycode.SHIFT, Keycode.F16]),
 
-    (4): (KEY, [Keycode.FOUR]),
-    (5): (KEY, [Keycode.FIVE]),
-    (6): (KEY, [Keycode.SIX]),
-    (7): (KEY, [Keycode.SEVEN]),
+    (4): (KEY, [Keycode.ALT, Keycode.F13]),
+    (5): (KEY, [Keycode.ALT, Keycode.F14]),
+    (6): (KEY, [Keycode.ALT, Keycode.F15]),
+    (7): (KEY, [Keycode.ALT, Keycode.F16]),
 
     (8): (KEY, [Keycode.EIGHT]),
     (9): (KEY, [Keycode.NINE]),
